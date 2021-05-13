@@ -8,7 +8,8 @@ const VideoList = ({ videos, onVideoSelect }) => {
       <VideoItem 
         key={video.id.videoId} 
         onVideoSelect={onVideoSelect} 
-        video={video} />
+        video={video} 
+      />
     );
   });
 
